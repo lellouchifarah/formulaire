@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Exercice 1</title>
+    <meta charset="utf-8">
+    <link rel-"stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <form method="post" action="exercice1.php"›
+<h3>
+  Fiche de renseignement
+</h3>
+  <label for="nom">Nom: </label>
+  <input type="text* id-"nom" name="nom" /></p›
+<р>
+   <label for="email">email: </label>
+   <input="text" id="email" name="email" /></p›
+</p>
+<p>
+Cochez les villes que vous voulez visiter :<br />
+   <input type="checkbox" name="ville[]" id="turquie" value= "Turquie" />
+   <label for="Turquie">Turquie</label><br />
+   <input type="checkbox" name="ville[]" id="Chine" value=" Chine"/>
+   <label for="Chine">Chine</label><br />
+   <input type="checkbox" name-"ville[]" id="indonesie" value="Indonesie"/>
+   <label for="indonesie">Indonésie</label><br />
+</p>
+
+  <form method="post" action="">
+<p>
+Veuillez indiquer votre spécialité :<br />
+   <input type="radio" name="spec" id="audit" value="audit" />
+   <label for="audit">Audit et contrôle de gestion</label><br />
+   <input type="radio" name="spec" value="business" id="business" />
+   <label for="business">E-Business</label><br />
+   <input type="radio" name="spec" value="com" id="com" />
+   <label for="com">Commerce international</label>
+</p>
+</form>
+
+  <form method="get" action="">
+<p>
+         <label for="wilaya">Dans quel wilaya habitez-vous ?</label>
+         <select name="wilaya" id="wilaya">
+         <option value="alger">Alger</option>
+         <option value="oran">Oran</option>
+         <option value="skikda">Skikda</option>
+         <option value="laghouat">Laghouat</option>
+  </select>
+</p>
+</form>
+
+      <form method="post" action="traitement.php">
+<p>
+   <label for="comment">
+   	   Vos commentaires?
+   </label><br />
+   <textarea name="comment" id="comment" rows="6" cols="40"></textarea>
+</p>
+</form>
+
+<div id="envoi">
+         <input type="submit" value="Envoyer">  <input type="reset" value="Recommencer">
+     </div>
+</form>
+</body>
+</html>
+
